@@ -200,7 +200,6 @@ public class AnalyzerService
     var sb = new StringBuilder();
     sb.AppendLine("<html><head><meta charset='utf-8'>" + style + "</head><body>");
     sb.AppendLine("<h1>برنامه بررسی سیگنال طلا در بازار فارکس</h1>");
-    sb.AppendLine("<h2>کاری از مهدی خسروآبادی و امید رحیم زاده</h2>");
     sb.AppendLine("<div class='sep'></div>");
     sb.AppendLine($"<p><b>نقطه بررسی سیگنال:</b> <span class='entry'>{FormatUtils.ToSlashDecimal(result5.Entry)}</span></p>");
     sb.AppendLine("<div class='sep'></div>");
@@ -238,7 +237,11 @@ public class AnalyzerService
         sb.AppendLine("</div>");
     }
 
+    sb.AppendLine("<div class='section'>");
+    sb.AppendLine("<h3>کاری از مهدی خسروآبادی و امید رحیم زاده</h3>");
+    sb.AppendLine("</div>");
     sb.AppendLine("</body></html>");
+
     return sb.ToString();
 }
 

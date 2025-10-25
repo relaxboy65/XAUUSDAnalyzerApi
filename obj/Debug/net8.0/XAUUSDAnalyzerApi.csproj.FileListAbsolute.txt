@@ -29,3 +29,4 @@ D:\CryptoAnalyzerApi\XAUUSDAnalyzerApi\obj\Debug\net8.0\refint\XAUUSDAnalyzerApi
 D:\CryptoAnalyzerApi\XAUUSDAnalyzerApi\obj\Debug\net8.0\XAUUSDAnalyzerApi.pdb
 D:\CryptoAnalyzerApi\XAUUSDAnalyzerApi\obj\Debug\net8.0\XAUUSDAnalyzerApi.genruntimeconfig.cache
 D:\CryptoAnalyzerApi\XAUUSDAnalyzerApi\obj\Debug\net8.0\ref\XAUUSDAnalyzerApi.dll
+D:\CryptoAnalyzerApi\XAUUSDAnalyzerApi\obj\Debug\net8.0\XAUUSDAnalyzerApi.sourcelink.json

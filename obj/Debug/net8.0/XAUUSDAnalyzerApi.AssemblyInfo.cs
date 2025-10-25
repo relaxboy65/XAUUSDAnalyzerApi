@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XAUUSDAnalyzerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+131420dc14bf1acf663cbc1e498c2a3c929f26a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("XAUUSDAnalyzerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XAUUSDAnalyzerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
