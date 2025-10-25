@@ -1,0 +1,31 @@
+using System.Text.Json.Serialization;
+
+namespace XAUUSDAnalyzerApi.Models;
+
+public class AnalysisResult
+{
+    public string Symbol { get; set; } = "";
+    public string Timeframe { get; set; } = "";
+    public string Signal { get; set; } = "";
+    public decimal Entry { get; set; }
+    public decimal SL { get; set; }
+
+    [JsonPropertyName("TP1")]
+    public decimal TP1 { get; set; }
+
+    [JsonPropertyName("TP2")]
+    public decimal TP2 { get; set; }
+
+    public decimal ATR { get; set; }
+    public decimal RiskPerUnit { get; set; }
+    public decimal RRR { get; set; }
+    public List<string> Warnings { get; set; } = new();
+    public string Verdict { get; set; } = "";
+
+    // 🔥 اضافه شده برای نمایش جزئیات اندیکاتورها
+    public decimal RSI { get; set; }
+    public decimal EMA14 { get; set; }
+    public decimal EMA50 { get; set; }
+    public decimal MACD { get; set; }
+    public decimal MACDSignal { get; set; }
+}
