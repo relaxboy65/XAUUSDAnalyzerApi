@@ -143,7 +143,6 @@ public class AnalyzerService
     var sb = new StringBuilder();
 
     sb.AppendLine("برنامه بررسی سیگنال طلا در بازار فارکس");
-    sb.AppendLine("کاری از مهدی خسروآبادی و امید رحیم زاده");
     sb.AppendLine("-----------------------------------");
     sb.AppendLine($"نقطه بررسی سیگنال: {FormatUtils.ToSlashDecimal(result5.Entry)}");
     sb.AppendLine("-----------------------------------");
@@ -167,7 +166,6 @@ public class AnalyzerService
     sb.AppendLine($"🎯 TP1: {FormatUtils.ToSlashDecimal(result5.TP1)}");
     sb.AppendLine($"🎯 TP2: {FormatUtils.ToSlashDecimal(result5.TP2)}");
     sb.AppendLine($"🛑 SL: {FormatUtils.ToSlashDecimal(result5.SL)}");
-    sb.AppendLine("-----------------------------------");
 
     if (result5.Warnings.Any())
     {
@@ -175,6 +173,8 @@ public class AnalyzerService
         foreach (var w in result5.Warnings)
             sb.AppendLine("   - " + w);
     }
+    sb.AppendLine("-----------------------------------");
+    sb.AppendLine("ساخته شده توسط: مهدی خسروآبادی و امید رحیم زاده");
 
     return sb.ToString();
 }
