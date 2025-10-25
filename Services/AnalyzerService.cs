@@ -238,7 +238,7 @@ public class AnalyzerService
     }
 
     sb.AppendLine("<div class='section'>");
-    sb.AppendLine("<h3>کاری از مهدی خسروآبادی و امید رحیم زاده</h3>");
+    sb.AppendLine("<h3>ساخته شده توسط: مهدی خسروآبادی و امید رحیم زاده</h3>");
     sb.AppendLine("</div>");
     sb.AppendLine("</body></html>");
 
